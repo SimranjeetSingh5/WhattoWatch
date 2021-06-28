@@ -13,7 +13,7 @@ public class Episode {
     @SerializedName("name")
     private String name;
 
-    @SerializedName("air date")
+    @SerializedName("air_date")
     private String airDate;
 
     public String getSeason() {

@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatToWatch"
         android:usesCleartextTraffic="false">
-        <activity android:name=".activities.TVShowDetailsActivity"></activity>
+        <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".activities.WatchlistActivity" />
+        <activity android:name=".activities.TVShowDetailsActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -29,7 +29,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:background="@drawable/background_tv_show"
-            android:backgroundTint="#EE811A2E"
             android:paddingBottom="@dimen/_10sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="@id/textName"
@@ -57,8 +56,9 @@
             android:fontFamily="sans-serif"
             android:text="@{tvShow.name}"
             android:includeFontPadding="false"
+            android:textStyle="bold"
             android:paddingTop="@dimen/_8sdp"
-            android:textColor="@color/colorTextPrimary"
+            android:textColor="@color/colorTextIcons"
             android:textSize="@dimen/_13ssp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/imageTVshow"
@@ -72,7 +72,8 @@
             android:fontFamily="sans-serif"
             android:text='@{tvShow.network + " (" + tvShow.country + ")"}'
             android:includeFontPadding="false"
-            android:textColor="@color/colorTextOther"
+            android:textColor="@color/colorTextIcons"
+            android:textStyle="italic"
             android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="@+id/textName"
             app:layout_constraintStart_toStartOf="@id/textName"
@@ -86,7 +87,7 @@
             android:fontFamily="sans-serif"
             android:includeFontPadding="false"
             android:text='@{"Started on:" + tvShow.startDate}'
-            android:textColor="@color/colorTextSecondary"
+            android:textColor="@color/colorTextIcons"
             android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="@id/textName"
             app:layout_constraintStart_toStartOf="@id/textName"
@@ -105,5 +106,19 @@
             app:layout_constraintEnd_toEndOf="@id/textName"
             app:layout_constraintStart_toStartOf="@id/textName"
             app:layout_constraintTop_toBottomOf="@id/textStarted" />
+
+        <ImageView
+            android:id="@+id/imageDelete"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@android:color/holo_red_light"
+            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

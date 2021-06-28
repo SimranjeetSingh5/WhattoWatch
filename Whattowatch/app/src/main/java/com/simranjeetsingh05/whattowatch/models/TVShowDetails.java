@@ -15,17 +15,17 @@ public class TVShowDetails {
     @SerializedName("runtime")
     private String runtime;
 
-    @SerializedName("image path")
+    @SerializedName("image_path")
     private String imagePath;
 
     @SerializedName("rating")
     private String rating;
 
     @SerializedName("genres")
-    private String genres;
+    private String[] genres;
 
     @SerializedName("pictures")
-    private String pictures;
+    private String[] pictures;
 
     @SerializedName("episodes")
     private List<Episode> episodes;
@@ -50,11 +50,11 @@ public class TVShowDetails {
         return rating;
     }
 
-    public String getGenres() {
+    public String[] getGenres() {
         return genres;
     }
 
-    public String getPictures() {
+    public String[] getPictures() {
         return pictures;
     }
 
