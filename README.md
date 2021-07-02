@@ -13,9 +13,9 @@ This project comprises of various current industry level frameworks,3rd party li
 
 
 Below are few SnapShots of the app:-
-![Screenshot_1625213087](https://user-images.githubusercontent.com/57033670/124243985-1a423780-db3c-11eb-8a6a-938189fa83ba.png = 250x250)
-![Screenshot_1625213094](https://user-images.githubusercontent.com/57033670/124243996-1ca49180-db3c-11eb-9b4d-75febd517d79.png = 250x250)
-![Screenshot_1625213101](https://user-images.githubusercontent.com/57033670/124244001-1dd5be80-db3c-11eb-8597-0bc3f8c79232.png =250x250)
-![Screenshot_1625213116](https://user-images.githubusercontent.com/57033670/124244006-1f06eb80-db3c-11eb-88b2-8d36c6465b27.png =250x250)
-![Screenshot_1625213172](https://user-images.githubusercontent.com/57033670/124244008-1f9f8200-db3c-11eb-8c6c-1a932832c604.png =250x250)
-![Screenshot_1625213190](https://user-images.githubusercontent.com/57033670/124244014-20381880-db3c-11eb-869f-95a250527b14.png =250x250)
+<img src="https://user-images.githubusercontent.com/57033670/124243985-1a423780-db3c-11eb-8a6a-938189fa83ba.png" alt="Your image title" width="250"/>
+<img src="https://user-images.githubusercontent.com/57033670/124243996-1ca49180-db3c-11eb-9b4d-75febd517d79.png" alt="Your image title" width="250"/>
+<img src="https://user-images.githubusercontent.com/57033670/124244001-1dd5be80-db3c-11eb-8597-0bc3f8c79232.png" alt="Your image title" width="250"/>
+<img src="https://user-images.githubusercontent.com/57033670/124244006-1f06eb80-db3c-11eb-88b2-8d36c6465b27.png" alt="Your image title" width="250"/>
+<img src="https://user-images.githubusercontent.com/57033670/124244008-1f9f8200-db3c-11eb-8c6c-1a932832c604.pn" alt="Your image title" width="250"/>
+<img src="https://user-images.githubusercontent.com/57033670/124244014-20381880-db3c-11eb-869f-95a250527b14.png" alt="Your image title" width="250"/>
